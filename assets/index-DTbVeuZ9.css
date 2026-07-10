@@ -29169,9 +29169,9 @@ a.cds--side-nav__link--current::before {
   --space-14: 88px;
   --space-15: 100px;
   --max-width: 1400px;
-  --gutter-d: 2rem;
-  --gutter-t: 1.5rem;
-  --gutter-m: 1rem;
+  --gutter-d: 64px;
+  --gutter-t: 40px;
+  --gutter-m: 20px;
   --section-pad-d: 96px;
   --section-pad-t: 72px;
   --section-pad-m: 56px;
@@ -29315,20 +29315,20 @@ ul, ol {
     scroll-behavior: auto !important;
   }
 }
-:global .cds--grid {
+.cds--grid {
   padding-left: var(--gutter-d) !important;
   padding-right: var(--gutter-d) !important;
   max-width: var(--max-width) !important;
   margin: 0 auto !important;
 }
 @media (max-width: 1199px) {
-  :global .cds--grid {
+  .cds--grid {
     padding-left: var(--gutter-t) !important;
     padding-right: var(--gutter-t) !important;
   }
 }
 @media (max-width: 767px) {
-  :global .cds--grid {
+  .cds--grid {
     padding-left: var(--gutter-m) !important;
     padding-right: var(--gutter-m) !important;
   }
