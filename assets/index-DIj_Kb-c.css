@@ -30164,7 +30164,7 @@ ul, ol {
   z-index: 9099;
   backdrop-filter: blur(2px);
   animation: _backdropIn_1ia0n_1 200ms ease forwards;
-}._footer_1xylc_1 {
+}._footer_ogg56_1 {
   position: relative;
   overflow: hidden;
   background: #030c24;
@@ -30174,31 +30174,42 @@ ul, ol {
   z-index: 1;
 }
 @media (max-width: 1199px) {
-  ._footer_1xylc_1 {
+  ._footer_ogg56_1 {
     padding-block: var(--section-pad-t) 2.5rem;
   }
 }
 @media (max-width: 767px) {
-  ._footer_1xylc_1 {
+  ._footer_ogg56_1 {
     padding-block: var(--section-pad-m) 2rem;
   }
 }
 
-._footer__brand_1xylc_21 {
+._footer__brand_ogg56_21 {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
   padding-right: 2rem;
 }
+@media (max-width: 1055px) {
+  ._footer__brand_ogg56_21 {
+    padding-right: 0;
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 671px) {
+  ._footer__brand_ogg56_21 {
+    margin-bottom: 2rem;
+  }
+}
 
-._footer__wordmark_1xylc_28 {
+._footer__wordmark_ogg56_39 {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
   text-decoration: none;
 }
 
-._footer__logoImg_1xylc_35 {
+._footer__logoImg_ogg56_46 {
   height: 32px;
   width: auto;
   max-width: 160px;
@@ -30208,7 +30219,7 @@ ul, ol {
   image-rendering: -webkit-optimize-contrast;
 }
 
-._footer__wordmarkMain_1xylc_45 {
+._footer__wordmarkMain_ogg56_56 {
   font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.625rem;
   font-weight: 700;
@@ -30217,35 +30228,35 @@ ul, ol {
   letter-spacing: -0.025em;
 }
 
-._footer__wordmarkSub_1xylc_54 {
+._footer__wordmarkSub_ogg56_65 {
   font-size: 0.625rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.04em;
 }
 
-._footer__tagline_1xylc_61 {
+._footer__tagline_ogg56_72 {
   font-size: 0.875rem;
   font-style: italic;
   color: #4589ff;
   margin: 0;
 }
 
-._footer__desc_1xylc_68 {
+._footer__desc_ogg56_79 {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.6;
   margin: 0;
 }
 
-._footer__badges_1xylc_75 {
+._footer__badges_ogg56_86 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.25rem;
 }
 
-._footer__badge_1xylc_75 {
+._footer__badge_ogg56_86 {
   height: 2rem;
   min-width: 2rem;
   padding: 0 0.65rem;
@@ -30263,18 +30274,19 @@ ul, ol {
   text-decoration: none;
   transition: all 0.2s ease;
   user-select: none;
+  white-space: nowrap;
 }
-._footer__badge_1xylc_75:hover {
+._footer__badge_ogg56_86:hover {
   background: rgba(15, 98, 254, 0.2);
   border-color: #4589ff;
   color: #ffffff;
 }
 
-._footerNav_1xylc_107 {
+._footerNav_ogg56_119 {
   margin-bottom: 2rem;
 }
 
-._footerNav__heading_1xylc_111 {
+._footerNav__heading_ogg56_123 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.625rem;
   font-weight: 600;
@@ -30284,7 +30296,7 @@ ul, ol {
   margin: 0 0 1rem;
 }
 
-._footerNav__list_1xylc_121 {
+._footerNav__list_ogg56_133 {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -30293,7 +30305,7 @@ ul, ol {
   gap: 0.5rem;
 }
 
-._footerNav__link_1xylc_130 {
+._footerNav__link_ogg56_142 {
   font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 0.875rem;
   color: rgba(255, 255, 255, 0.65);
@@ -30301,32 +30313,32 @@ ul, ol {
   line-height: 1.4;
   transition: color 0.2s ease;
 }
-._footerNav__link_1xylc_130:hover {
+._footerNav__link_ogg56_142:hover {
   color: #ffffff;
 }
 
-._footerNav__link--accent_1xylc_142 {
+._footerNav__link--accent_ogg56_154 {
   color: #4589ff;
   font-weight: 500;
 }
-._footerNav__link--accent_1xylc_142:hover {
+._footerNav__link--accent_ogg56_154:hover {
   color: #6ea6ff;
 }
 
-._footerNav__link--email_1xylc_150 {
+._footerNav__link--email_ogg56_162 {
   color: #4589ff;
 }
-._footerNav__link--email_1xylc_150:hover {
+._footerNav__link--email_ogg56_162:hover {
   text-decoration: underline;
 }
 
-._footer__rule_1xylc_157 {
+._footer__rule_ogg56_169 {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   margin: 3rem 0 1.5rem;
 }
 
-._footer__bottom_1xylc_163 {
+._footer__bottom_ogg56_175 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -30334,29 +30346,29 @@ ul, ol {
   justify-content: space-between;
 }
 
-._footer__copyright_1xylc_171 {
+._footer__copyright_ogg56_183 {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.4);
   margin: 0;
 }
 
-._footer__legal_1xylc_177 {
+._footer__legal_ogg56_189 {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
 
-._footer__legalLink_1xylc_183 {
+._footer__legalLink_ogg56_195 {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
   transition: color 0.2s ease;
 }
-._footer__legalLink_1xylc_183:hover {
+._footer__legalLink_ogg56_195:hover {
   color: #ffffff;
 }
 
-._footer__colophon_1xylc_193 {
+._footer__colophon_ogg56_205 {
   font-size: 0.625rem;
   color: rgba(255, 255, 255, 0.22);
   margin: 0;
